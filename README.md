@@ -1,6 +1,6 @@
 # 📊 Portfólio de Análise de Dados & Engenharia de Dados
 
-Bem-vindo ao meu repositório de projetos práticos aplicados à Análise de Dados e Business Intelligence. Este portfólio reúne soluções ponta a ponta focadas no tratamento de dados, modelagem, consultas relacionais e construção de métricas de negócio.
+Bem-vindo ao meu repositório de projetos práticos aplicados à Análise de Dados, Engenharia de Dados e Business Intelligence. Este espaço reúne soluções ponta a ponta focadas na construção de pipelines de dados, tratamento, modelagem relacional, consultas analíticas e métricas de negócio.
 
 ---
 
@@ -12,10 +12,11 @@ Bem-vindo ao meu repositório de projetos práticos aplicados à Análise de Dad
 - **Análise Temporal e Agrupamentos:** Manipulação de datas (`datetime`), agregações avançadas com `groupby` e cruzamentos de tabelas relacionais (`pd.merge`).
 - **Arquivos:** Leitura e processamento de arquivos estruturados (`.csv`).
 
-### 2. SQL & Bancos de Dados Relacionais
-- **Modelagem Relacional:** Estruturação de esquemas, chaves primárias e estrangeiras.
-- **Consultas Analíticas:** Filtragem (`WHERE`, `HAVING`), agrupamentos (`GROUP BY`), agregação de dados e funções analíticas/janela (*Window Functions*).
-- **Cruzamento de Dados:** Relacionamento entre múltiplas tabelas via `JOINs`.
+### 2. SQL & Bancos de Dados Relacionais (MySQL)
+- **DDL & DML:** Criação de bancos (`utf8mb4`), tabelas, tipos de dados e manipulação segura de registros (`SQL_SAFE_UPDATES`).
+- **Consultas Analíticas (DQL):** Operadores lógicos, buscas por padrões (`LIKE`), listas (`IN`), faixas (`BETWEEN`) e remoção de duplicados (`DISTINCT`).
+- **Agregações & Métricas de Negócio:** Agrupamentos por categorias e períodos (`GROUP BY`), filtros pós-agrupamento (`HAVING`) e funções de agregação (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`, `ROUND`).
+- **Relacionamentos:** Cruzamento de tabelas via `JOINs` (em desenvolvimento).
 
 ### 3. Power BI & Visualização de Dados
 - **Modelagem Dimensional:** Conexão de dados, relacionamentos e construção do esquema estrela (*Star Schema*).
@@ -28,16 +29,9 @@ Bem-vindo ao meu repositório de projetos práticos aplicados à Análise de Dad
 
 ```text
 data-analytics-portfolio/
-├── 01_python_dados/            # Trilha de Manipulação e Análise de Dados com Python
-│   ├── 01_fundamentos_limpeza/
-│   ├── 02_filtros_e_ordenacao/
-│   ├── 03_tratamento_com_loc/
-│   ├── 04_regras_com_np_select/
-│   ├── 05_manipulacao_de_datas/
-│   ├── 06_agrupamentos_groupby/
-│   └── 07_merge_relacionamentos/
-├── 02_sql_consultas/          # (Em desenvolvimento) Consultas e Modelagem de Banco de Dados
-└── 03_powerbi_dashboards/     # (Em desenvolvimento) Relatórios e Dashboards Interativos
+├── 01_python_dados/            # Scripts, Processamentos e Análises com Pandas
+├── 02_sql_consultas/          # Scripts, Modelagens e Exercícios de Fixação em SQL
+└── 03_powerbi_dashboards/     # Relatórios, Dashboards Interativos e Modelagem DAX
 
 👨‍💻 Sobre Mim
 Nome: Alex dos Santos Ribas
@@ -46,4 +40,4 @@ Objetivo: Transição de carreira para a área de Análise de Dados, Engenharia 
 
 Formação: Cursando Análise e Desenvolvimento de Sistemas (ADS).
 
-Contato: alexribas.ads@gmail.com | GitHub
+Contato: alexribas.ads@gmail.com
